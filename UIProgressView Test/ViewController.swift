@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         progressBar.setProgress(0, animated: false)
+        progressBar.tintColor = .green
         
     }
 
